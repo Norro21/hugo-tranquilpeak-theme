@@ -6,11 +6,13 @@ All kinds of contributions (enhancements, new features, documentation & code imp
 
 ### Javascript
 
-We use [ESLint](http://eslint.org) based on Google code style to maintain code style.
+We use [ESLint](http://eslint.org) based on Google code style to maintain code style.  
 Check code status with:
 
 ``` bash
 npm run lint
+# or
+grunt eslint
 ```
 
 ## Issues ##
@@ -26,3 +28,4 @@ Before a pull request :
  - There is no tests yet so verify that your code is running well. Blog generation (`hugo`) must not outputs errors
  - Check code style with eslint.
  - Don't forget to update user and/or developer documentation if it's necessary
+ 
